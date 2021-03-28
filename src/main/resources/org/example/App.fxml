@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Slider?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane prefHeight="459.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/15.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.example.Controller">
+   <children>
+      <Button fx:id="makeCoffeeBtn" layoutX="41.0" layoutY="413.0" mnemonicParsing="false" onAction="#click" text="Приготовить кофе" />
+      <TextField fx:id="studentNameTxtField" layoutX="29.0" layoutY="14.0" promptText="Имя" />
+      <Text fx:id="resultCounterOfCoffeeCup" layoutX="264.0" layoutY="277.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Кол-во кружек кофе" />
+      <Text fx:id="cupVolumeText" layoutX="258.0" layoutY="67.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Объем" />
+      <Text fx:id="tasteOfCoffeeText" layoutX="259.0" layoutY="94.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Вкус" />
+      <Text fx:id="sugarQuantityText" layoutX="259.0" layoutY="148.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Количество сахара" />
+      <Text fx:id="kettleVolumeText" layoutX="259.0" layoutY="169.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Объем чайника" />
+      <Text fx:id="kettleTemperatureText" layoutX="259.0" layoutY="199.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Температура воды" />
+      <Text fx:id="studentNameText" layoutX="261.0" layoutY="45.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Имя" />
+      <Slider fx:id="sugarQuantitySlider" blockIncrement="1.0" layoutX="29.0" layoutY="239.0" majorTickUnit="4.0" max="4.0" prefHeight="16.0" prefWidth="171.0" showTickLabels="true" showTickMarks="true" snapToTicks="true" />
+      <Slider fx:id="cupVolumeSlider" blockIncrement="1.0" layoutX="29.0" layoutY="70.0" majorTickUnit="30.0" max="500.0" min="50.0" minorTickCount="1" prefHeight="16.0" prefWidth="171.0" showTickLabels="true" showTickMarks="true" snapToTicks="true" />
+      <Text layoutX="64.0" layoutY="59.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Объем кружки" />
+      <Text layoutX="12.0" layoutY="225.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Количество сахара(в ложках)" />
+      <Text layoutX="63.0" layoutY="290.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Объем чайника" />
+      <Slider fx:id="kettleVolumeSlider" blockIncrement="1.0" layoutX="29.0" layoutY="296.0" majorTickUnit="300.0" max="1500.0" min="500.0" prefHeight="16.0" prefWidth="171.0" showTickLabels="true" showTickMarks="true" snapToTicks="true" />
+      <Text layoutX="50.0" layoutY="347.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Температура воды" />
+      <Slider fx:id="waterTemperatureSlider" blockIncrement="1.0" layoutX="29.0" layoutY="363.0" majorTickUnit="4.0" min="60.0" minorTickCount="1" prefHeight="16.0" prefWidth="171.0" showTickLabels="true" showTickMarks="true" snapToTicks="true" />
+      <TextField fx:id="tasteOfCoffeeTxtField" layoutX="29.0" layoutY="117.0" promptText="Вкус кофе" />
+      <Slider fx:id="coffeeSlider" blockIncrement="1.0" layoutX="31.0" layoutY="175.0" majorTickUnit="4.0" max="5.0" min="1.0" prefHeight="16.0" prefWidth="171.0" showTickLabels="true" showTickMarks="true" snapToTicks="true" />
+      <Text layoutX="14.0" layoutY="161.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Количество кофе (в ложках)" />
+      <Text fx:id="quantityOfCoffeeText" layoutX="263.0" layoutY="122.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Количество кофе" />
+      <Button layoutX="207.0" layoutY="413.0" mnemonicParsing="false" onAction="#thirdClick" text="Приготовить чай" />
+      <Button fx:id="makeCoffeeWithMilkBtn" layoutX="365.0" layoutY="413.0" mnemonicParsing="false" onAction="#secondClick" text="Приготовить кофе с молоком" />
+      <Text fx:id="resultCounterOfCoffeeWithMilk" layoutX="264.0" layoutY="300.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Кол-во кружек кофе с молоком" />
+      <Text fx:id="resultCounterOfTeaCup" layoutX="260.0" layoutY="328.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Кол-во кружек чая" />
+      <Text fx:id="resultCounterOfMilk" layoutX="260.0" layoutY="225.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Общее кол-во молока" />
+      <Text fx:id="resultCounterOfTea" layoutX="260.0" layoutY="251.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Общее кол-во чая" />
+      <Text fx:id="unexpectedText" fill="RED" layoutX="260.0" layoutY="355.0" strokeType="OUTSIDE" strokeWidth="0.0" />
+   </children>
+</AnchorPane>
