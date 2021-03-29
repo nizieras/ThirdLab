@@ -4,5 +4,5 @@ ThirdLab
 Добавить наследующий от него класс Чай. Добавить класс молоко. 
 Обеспечить класс Чайник методом Нагреть.
 Классу студент добавить метод Сделать кофе с молоком() и Сделать чай().
-![](Ссылка 1)
-![](Ссылка 2)
+![](https://github.com/nizieras/ThirdLab/blob/54aa7b73fcc20b6a93a600d46441319213c6f46e/ClassDiagram.png)
+![](https://github.com/nizieras/ThirdLab/blob/54aa7b73fcc20b6a93a600d46441319213c6f46e/SequenceDiagram.png)
